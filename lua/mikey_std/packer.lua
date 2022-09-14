@@ -18,10 +18,6 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
   
-  use 'preservim/nerdtree'
-
-  use 'vim-airline/vim-airline'
-
   use 'wuelnerdotexe/vim-enfocado'
 
   use("nvim-lua/plenary.nvim")
